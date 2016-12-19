@@ -134,7 +134,7 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
      int         kk,ll,sum1=0, headx, heady;
      if (inicio == 0)
      {
-        SetTimer(hwnd, ID_TIMER, 100, NULL);
+        SetTimer(hwnd, ID_TIMER, 10, NULL);
          for(kk = 0;kk < 9; kk++)
          {
              fState[kk+40][20] = 1;
