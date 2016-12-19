@@ -1,5 +1,5 @@
 /*-------------------------------------------------
-   TEST1.C -- Demo Test de posición del ratón, nº 1
+   TEST1.C -- Demo Test de posiciÃ³n del ratÃ³n, nÂº 1
               (c) Charles Petzold, 1996
   -------------------------------------------------*/
 
@@ -251,6 +251,11 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
                     if(fState[1][1]==1&&fState[0][0]==1&&fState[2][2]==1&&sum==3){
                         xrand=0;
                         yrand=2;
+                        ban1=1;
+                    }
+                    if(FState[1][1]==-1&&FState[0][0]==1&&FState[2][2]==1&&sum==3){
+                        xrand=0;
+                        yrand=1;
                         ban1=1;
                     }
                     //Gane
